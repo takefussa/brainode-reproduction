@@ -1,0 +1,110 @@
+{
+  "experiment": "adni1_continuous_v1",
+  "report": "/home/take/brainode/artifacts/training_runs/adni1_continuous_v1",
+  "output": "/data5/take/brainode/experiments/adni1_continuous_v1",
+  "data_root": "/data5/take/brainode/model_data/adni1_pca150_v1",
+  "data_sha256": {
+    "observations.npz": "b89a7a092903bfeff5650c571b70581d9d04430f44c951606c3f72712f52bd22",
+    "pca.npz": "66c1e3701cc947cacfb3759bf2505937f0b5fb8210ed259d3650f72fdf7d2e75",
+    "summary.json": "1839a0a83197362f4e0f8d7b50dfeed07242e773273f744c4a8550da6377c91f"
+  },
+  "initial_checkpoint": "/data5/take/brainode/experiments/adni1_observed_v1/latest.pt",
+  "initial_checkpoint_sha256": "d19c9af2f68dfdd522a2fbb178d62edb0bc70715d30bed30b313dd2502bf4d96",
+  "voxel_manifest": "/data5/take/brainode/cognition_voxels/adni1_pca150_center05_v1/manifest.json",
+  "voxel_manifest_sha256": "06fd6b43c3491046b5a3968c9d45b87d3f1bdef5f57c860be999425afe5c5f71",
+  "code_sha256": {
+    "train_continuous.py": "3fbe2ffabc482e001ff2e9b9393d3c0080e9c585478632fc90eb25023e835a27",
+    "train_lab.py": "7139af0e336856f1902342b2f430f8cf97db815ca650ef18c545b9f7abca01c1",
+    "model.py": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+    "paper_training.py": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+    "paper_cognition.py": "95a9c90f36d4f01200af940c0c64100e0a2a655ad86c753641044a54bccd4189",
+    "cognition.py": "e4ef675a73b77cd88ae54ae1746b36842a113b6807e17dfe36a64995a84ac95e",
+    "evaluation.py": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+    "lab_shapes.py": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d",
+    "deterministic_pool.py": "580f89732abf84b8d0c51a9ac4fc2c741a947e4efff1ba25b6bfc1765b238542"
+  },
+  "seed": 42,
+  "conversion_pairs": 4,
+  "pseudo_fractions": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "grid": {
+    "grid_shape": [
+      128,
+      128,
+      128
+    ],
+    "origin_mm": [
+      -31.0,
+      -34.0,
+      -33.0
+    ],
+    "pitch_mm": 0.5,
+    "method": "center-occupancy"
+  },
+  "cnn": {
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "epochs": 30,
+    "batch_size": 16,
+    "learning_rate": 0.0005,
+    "loss": "soft-label BCEWithLogits",
+    "optimizer": "AdamW: betas=(.9,.999), eps=1e-8, weight_decay=.01",
+    "scheduler": "StepLR: 10 epochs, gamma=.5",
+    "mixing": "each of 1150 observed and 36 pseudo train shapes used once per epoch; no oversampling",
+    "checkpoint": "fixed final epoch",
+    "augmentation": "none",
+    "precision": "FP32; TF32 disabled",
+    "physical_gpu": 5,
+    "pooling_backend": "deterministic-disjoint-max",
+    "microbatch_size": 4,
+    "gradient_accumulation": "BCE sum/N per microbatch; one AdamW update per effective batch16; no batch-dependent CNN layers"
+  },
+  "ode": {
+    "epochs": 20,
+    "batch_subjects": 2,
+    "learning_rate": 0.0005,
+    "optimizer": "fresh AdamW: betas=(.9,.999), eps=1e-8, weight_decay=.01",
+    "scheduler": "StepLR: 20 epochs, gamma=.5",
+    "initial_observed_epochs": 100,
+    "total_epochs": 120,
+    "solver": "RK4",
+    "augmentation_scale": [
+      0.98,
+      1.02
+    ],
+    "patient_weighting": "equal patient weight; converter loss = .5 observed + .5 mean of endpoint-specific pseudo trajectory losses",
+    "mixing": "retain all 299 real temporal train patient sequences; add four 11-shape endpoint-specific trajectories within two converters",
+    "checkpoint": "fixed final epoch",
+    "precision": "FP32; TF32 disabled",
+    "physical_gpu": 4
+  },
+  "progressive_steps": 10,
+  "test_future_targets": 175,
+  "latest_future_targets": 62,
+  "supplements": [
+    "Nine internal pseudo fractions per all eligible train-only CN->later AD pair",
+    "Simple CNN layers, soft BCE and optimizer/schedule/epochs/batch",
+    "Pair-relative trajectories kept separate, observed/pseudo loss equally weighted within converter patients",
+    "20 augmented fine-tuning epochs after 100 observed epochs with fresh optimizer",
+    "Algorithm 2 N=10 fixed before test evaluation",
+    "Center occupancy grid with explicit assumed millimeter coordinates",
+    "plant-ai05 FP32 CNN microbatch4 with effective batch16 gradient accumulation; architecture and optimizer update count unchanged"
+  ],
+  "cohort": "ADNI1 only, all previously eligible CN/AD scans, no new exclusion or split change",
+  "time": "frozen train-derived (age-55.7288)/37.2931; no test refitting",
+  "no_test_model_selection": true,
+  "geometry_policy": "retain and report intersections; fail on nonfinite, empty, nonwatertight, out-of-grid, or ray-disagreement outputs",
+  "numerical_adjustment": "Native MaxPool3D CUDA backward rejected strict determinism before any update; exact nonoverlapping maximum reduction replaces it."
+}

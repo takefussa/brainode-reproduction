@@ -1,0 +1,19 @@
+# CUDA environment for mesh fitting, separate from the original CPU checks.
+# CUDA toolkit 12.1 + gcc/g++ 12 for the pinned PyTorch3D source build.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+numpy==2.5.3
+scipy==1.18.1
+trimesh==5.1.1
+nibabel==5.3.2
+matplotlib==3.11.2
+plotly==7.1.0
+pillow==12.3.0
+open3d==0.19.0
+iopath==0.1.10
+torchdiffeq==0.2.5
+scikit-learn==1.9.1
+# Build after installing the dependencies, using --no-build-isolation.
+# references/pytorch3d is pinned to v0.7.9, commit
+# 33824be3cbc87a7dd1db0f6a9a9de9ac81b2d0ba.

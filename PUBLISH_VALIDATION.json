@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-13T08:37:41.594770+00:00",
+  "python_files_syntax_checked": 98,
+  "synthetic_unit_tests": {
+    "command": "CUDA_VISIBLE_DEVICES=\"\" OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2 python -m unittest discover -s tests -v",
+    "tests_run": 55,
+    "status": "passed",
+    "elapsed_seconds": 5.918,
+    "execution_environment": "/home/take/brainode/.venv-mesh"
+  },
+  "validation_scope": "Copied source-only repository tested on CPU. No full MRI dataset, new clinical forecast, or GPU training performed for publication.",
+  "secret_pattern_scan": "No matches for common GitHub/OpenAI/AWS token or private-key formats."
+}

@@ -1,0 +1,620 @@
+{
+  "exported_utc": "2026-10-13T08:33:56.682675+00:00",
+  "source_project": "/home/take/brainode",
+  "source_files": {
+    "dataset.py": {
+      "source": "/home/take/brainode/dataset.py",
+      "sha256": "db87fc08242797225a6880058464dc7d35e0cd01b20308154ea3ea972794637a",
+      "bytes": 354
+    },
+    "model.py": {
+      "source": "/home/take/brainode/model.py",
+      "sha256": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+      "bytes": 3322
+    },
+    "train.py": {
+      "source": "/home/take/brainode/train.py",
+      "sha256": "739d0f08abe3cd3a623d228824050dc415649ac108e7912f414958d3db6bd317",
+      "bytes": 16784
+    },
+    "paper_cognition.py": {
+      "source": "/home/take/brainode/paper_cognition.py",
+      "sha256": "95a9c90f36d4f01200af940c0c64100e0a2a655ad86c753641044a54bccd4189",
+      "bytes": 4847
+    },
+    "cognition.py": {
+      "source": "/home/take/brainode/cognition.py",
+      "sha256": "e4ef675a73b77cd88ae54ae1746b36842a113b6807e17dfe36a64995a84ac95e",
+      "bytes": 11062
+    },
+    "mesh_input.py": {
+      "source": "/home/take/brainode/mesh_input.py",
+      "sha256": "481cffa0372b8e40767ab2f20c04d3cceb4df319204a137a86846bc30283a8bb",
+      "bytes": 2085
+    },
+    "mesh_fit.py": {
+      "source": "/home/take/brainode/mesh_fit.py",
+      "sha256": "c46f935096a96db41d39999455e24335e309bad84262de8362f8038f3cff9ad9",
+      "bytes": 25018
+    },
+    "lab_dataset.py": {
+      "source": "/home/take/brainode/lab_dataset.py",
+      "sha256": "914c858fdd08773bb6129b5ae179131aca14787a3c72be07373ba5ec73f170fd",
+      "bytes": 7059
+    },
+    "paper_training.py": {
+      "source": "/home/take/brainode/paper_training.py",
+      "sha256": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+      "bytes": 3135
+    },
+    "evaluation.py": {
+      "source": "/home/take/brainode/evaluation.py",
+      "sha256": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+      "bytes": 2928
+    },
+    "mesh_initialization.py": {
+      "source": "/home/take/brainode/mesh_initialization.py",
+      "sha256": "1848f6d257a9185cca221acd6210416680c38eeb3077d428d407710ece077666",
+      "bytes": 2008
+    },
+    "mesh_cohort.py": {
+      "source": "/home/take/brainode/mesh_cohort.py",
+      "sha256": "a5627e48ed29578e1f767283a579554924a3160a180bf2744f57366ed319f7bd",
+      "bytes": 3070
+    },
+    "mesh_batch.py": {
+      "source": "/home/take/brainode/mesh_batch.py",
+      "sha256": "3d33b243d7d808878cc70c4610455921f811d85b9e0e915c244a96c1e38ad5e4",
+      "bytes": 12751
+    },
+    "lab_shapes.py": {
+      "source": "/home/take/brainode/lab_shapes.py",
+      "sha256": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d",
+      "bytes": 2338
+    },
+    "train_lab.py": {
+      "source": "/home/take/brainode/train_lab.py",
+      "sha256": "7139af0e336856f1902342b2f430f8cf97db815ca650ef18c545b9f7abca01c1",
+      "bytes": 13036
+    },
+    "train_continuous.py": {
+      "source": "/home/take/brainode/train_continuous.py",
+      "sha256": "3fbe2ffabc482e001ff2e9b9393d3c0080e9c585478632fc90eb25023e835a27",
+      "bytes": 32018
+    },
+    "deterministic_pool.py": {
+      "source": "/home/take/brainode/deterministic_pool.py",
+      "sha256": "580f89732abf84b8d0c51a9ac4fc2c741a947e4efff1ba25b6bfc1765b238542",
+      "bytes": 803
+    },
+    "lv_mesh_fit.py": {
+      "source": "/home/take/brainode/lv_mesh_fit.py",
+      "sha256": "64618e3682a4ac0147aae0a7f0eedffbf03657f9609690c7b918496d167f5353",
+      "bytes": 9679
+    },
+    "AGENTS.md": {
+      "source": "/home/take/brainode/AGENTS.md",
+      "sha256": "b998e32fa5e5d26cb45bdce4ccf9ef57a207b81088bfb44f80cc77f2448d0e27",
+      "bytes": 613
+    },
+    "SPEC.md": {
+      "source": "/home/take/brainode/SPEC.md",
+      "sha256": "1373c383a01396b8b76370ed92ccf301ff057472dc425135029542f14d557e75",
+      "bytes": 17478
+    },
+    "INVESTIGATION.md": {
+      "source": "/home/take/brainode/INVESTIGATION.md",
+      "sha256": "e200475593dddb10196c7458c4c6ce30142255e98e08433cbbcdff0687e1a50b",
+      "bytes": 32638
+    },
+    "TRAINING_PLAN.md": {
+      "source": "/home/take/brainode/TRAINING_PLAN.md",
+      "sha256": "610fa6b58b72ef6a45643c3c309f4145b9c3b7acd3eb1321939c2fe35f5d8139",
+      "bytes": 16348
+    },
+    "environment.yml": {
+      "source": "/home/take/brainode/environment.yml",
+      "sha256": "803e805e354cade1de8bbb5298e28d5aadb2e4f97f843bf37d225f773980274d",
+      "bytes": 78
+    },
+    "requirements-mesh.txt": {
+      "source": "/home/take/brainode/requirements-mesh.txt",
+      "sha256": "1f28d803b9048c07d7f7c434e7e62d2b519593053f3e2396f1d50a4ad82f898c",
+      "bytes": 590
+    },
+    "requirements-qc.txt": {
+      "source": "/home/take/brainode/requirements-qc.txt",
+      "sha256": "e0fd0d5231b180d61da61868a582c53ccd314e236d5c2e631cbf7a640544e58e",
+      "bytes": 274
+    },
+    "requirements-cognition.txt": {
+      "source": "/home/take/brainode/requirements-cognition.txt",
+      "sha256": "8b1a0f90ddd68dbb77d512bc56c863701102b40f003388a22ebcbf00ddbcd162",
+      "bytes": 357
+    },
+    "docs/UPSTREAM_README.md": {
+      "source": "/home/take/brainode/README.md",
+      "sha256": "03575cafd5afe4950e5b457ff851821c213d7d3f4a2414b00aaaef5688f3a050",
+      "bytes": 947
+    },
+    "tests/test_paper_cognition.py": {
+      "source": "/home/take/brainode/tests/test_paper_cognition.py",
+      "sha256": "302c8a5add969eef9e95b8729eb599e793063ff72a309819b8d90a834dae9e58",
+      "bytes": 4025
+    },
+    "tests/test_cognition.py": {
+      "source": "/home/take/brainode/tests/test_cognition.py",
+      "sha256": "6df4bafeed64958b40c7c84010aabf1e963f63ecdec5331f26c328f5e1817221",
+      "bytes": 6062
+    },
+    "tests/test_mesh_input.py": {
+      "source": "/home/take/brainode/tests/test_mesh_input.py",
+      "sha256": "a57fc3efadcf58b64029e5a806d9db7e2677f2d57a5e8e3defcb17df55757639",
+      "bytes": 1898
+    },
+    "tests/test_mesh_fit.py": {
+      "source": "/home/take/brainode/tests/test_mesh_fit.py",
+      "sha256": "bf928cca1706d8115ef4f4530bd501e63accad904fac23285018c53e09240724",
+      "bytes": 10023
+    },
+    "tests/test_lab_dataset.py": {
+      "source": "/home/take/brainode/tests/test_lab_dataset.py",
+      "sha256": "f9e40f86473e4fc8358546da2a3f7d51ae37351b9f68ef275c5cf5f4df580d74",
+      "bytes": 3514
+    },
+    "tests/test_paper_training.py": {
+      "source": "/home/take/brainode/tests/test_paper_training.py",
+      "sha256": "f8ef8cef4809a2c6b6e02c07bdf98dd52feb3cb8d21edaf87bfe938ccd6484a4",
+      "bytes": 1772
+    },
+    "tests/test_evaluation.py": {
+      "source": "/home/take/brainode/tests/test_evaluation.py",
+      "sha256": "e8be84096e7eac38eea3b4a40491e6d91c282c6d7828756646d90fac820df52b",
+      "bytes": 2227
+    },
+    "tests/test_mesh_initialization.py": {
+      "source": "/home/take/brainode/tests/test_mesh_initialization.py",
+      "sha256": "77b50652253d56a8b260202d1f8684efcda54cb77079aee5f87fd6293140b12a",
+      "bytes": 1963
+    },
+    "tests/test_mesh_cohort.py": {
+      "source": "/home/take/brainode/tests/test_mesh_cohort.py",
+      "sha256": "6fbd6b033c09a0434bc8156a2153b2aff86a7b7d3b64dac866b6996e1e4f26a8",
+      "bytes": 1981
+    },
+    "tests/test_lab_shapes.py": {
+      "source": "/home/take/brainode/tests/test_lab_shapes.py",
+      "sha256": "48db9ec5996d5c1bc1d47f6c059e6456de36d4ebe196035f2cba23f751b5e4e9",
+      "bytes": 1177
+    },
+    "tests/test_train_lab.py": {
+      "source": "/home/take/brainode/tests/test_train_lab.py",
+      "sha256": "ecfd8f272e6dfff175ebd70f7e88f957dccb7b36dce0ade4d14c67ef48ee6e63",
+      "bytes": 1258
+    },
+    "tests/test_train_continuous.py": {
+      "source": "/home/take/brainode/tests/test_train_continuous.py",
+      "sha256": "3896901e7f04c43628c2eedf94c106aebb94523d478956573845a4c93ef6852e",
+      "bytes": 1980
+    },
+    "tests/test_deterministic_pool.py": {
+      "source": "/home/take/brainode/tests/test_deterministic_pool.py",
+      "sha256": "252e18b9eeaf9627d8516307b2e643d72c26c73dba1e3dba5ab73f074dc05599",
+      "bytes": 868
+    },
+    "audit/inspect_adni1.py": {
+      "source": "/home/take/brainode/audit/inspect_adni1.py",
+      "sha256": "596c0ba6ddc335be5fa1b5f676dbfba0421e1173d7f875c18c4a8df11636372e",
+      "bytes": 10080
+    },
+    "audit/read_official_pca.py": {
+      "source": "/home/take/brainode/audit/read_official_pca.py",
+      "sha256": "a415bfa8a1192f62a22287f76cf4bd7440b25e13a5bcb3cede9899c9721334af",
+      "bytes": 1886
+    },
+    "audit/qc_hippocampus_pair.py": {
+      "source": "/home/take/brainode/audit/qc_hippocampus_pair.py",
+      "sha256": "0cafcfd26d0d84efd093775bf5e7e03eed787f2c4d43146e549a14f882669a47",
+      "bytes": 8526
+    },
+    "audit/render_mesh_qc.py": {
+      "source": "/home/take/brainode/audit/render_mesh_qc.py",
+      "sha256": "062514d4105990346df047271feda873c960821cfbf04b53b5dc600b54a40efe",
+      "bytes": 6609
+    },
+    "audit/review_mesh_flags.py": {
+      "source": "/home/take/brainode/audit/review_mesh_flags.py",
+      "sha256": "0e3d1be0579bbd32f01b5395d72674d90d50b7c602e63309ce42996b00fa2cd0",
+      "bytes": 7682
+    },
+    "audit/diagnose_mesh_bias.py": {
+      "source": "/home/take/brainode/audit/diagnose_mesh_bias.py",
+      "sha256": "ae0fdc640ec707e5d0208d985c7512d18798cd7f0fecebc37f8d4b8b3b016726",
+      "bytes": 4462
+    },
+    "audit/compare_public_mesh_loss.py": {
+      "source": "/home/take/brainode/audit/compare_public_mesh_loss.py",
+      "sha256": "9e2626cd2c01a93b617f57d6fe3f77e367825df571274032b1062d53b0b730ec",
+      "bytes": 5959
+    },
+    "audit/inventory_cohorts.py": {
+      "source": "/home/take/brainode/audit/inventory_cohorts.py",
+      "sha256": "71eddb0fa9d05d95672e8a30b25a9e4cc1b2ab340a1aae7443de8742b59fa3bb",
+      "bytes": 13860
+    },
+    "audit/compare_mesh_initialization.py": {
+      "source": "/home/take/brainode/audit/compare_mesh_initialization.py",
+      "sha256": "f09246525386b126508f8d9332f97b33addeec3368b8998c186aac74940bfc6d",
+      "bytes": 6170
+    },
+    "audit/check_mesh_geometry.py": {
+      "source": "/home/take/brainode/audit/check_mesh_geometry.py",
+      "sha256": "8559ffa6b2df1ad16af0c0696b89edea716db0069f5f1bbed3df4952add269d0",
+      "bytes": 6178
+    },
+    "audit/continue_mesh_initialization.py": {
+      "source": "/home/take/brainode/audit/continue_mesh_initialization.py",
+      "sha256": "a6e93aba27dec7d83fdf19f870aa0bb5cac2084301eddfc6c6f5e16cba0201d8",
+      "bytes": 5861
+    },
+    "audit/prepare_adni_baseline.py": {
+      "source": "/home/take/brainode/audit/prepare_adni_baseline.py",
+      "sha256": "f1110ea3c365fc94ef1a723af925f0746ef59e737a2c3750c50870afd21b7f0e",
+      "bytes": 5553
+    },
+    "audit/render_initialization_review.py": {
+      "source": "/home/take/brainode/audit/render_initialization_review.py",
+      "sha256": "d33ddd6b9e2487c30ec6fba587e0ea4dfec69326c2e7c5b2e800525ec212145c",
+      "bytes": 3627
+    },
+    "audit/check_image_geometry.py": {
+      "source": "/home/take/brainode/audit/check_image_geometry.py",
+      "sha256": "ec82c0c1eefbdea2b3a4062fb11425ab052fa3bdf254d611a842ffc3187a1733",
+      "bytes": 15096
+    },
+    "audit/render_mesh_size_explanation.py": {
+      "source": "/home/take/brainode/audit/render_mesh_size_explanation.py",
+      "sha256": "8e4556da9fbbbe2dea72217811f9f8d2f784c7910465ca127fbf6d0e7d6c72ca",
+      "bytes": 3394
+    },
+    "audit/summarize_mesh_batch.py": {
+      "source": "/home/take/brainode/audit/summarize_mesh_batch.py",
+      "sha256": "76ab7144307ea86501c2e17d8ad2f14bc66447a740934d34932d50542957fedc",
+      "bytes": 9236
+    },
+    "audit/prepare_adni1_stage.py": {
+      "source": "/home/take/brainode/audit/prepare_adni1_stage.py",
+      "sha256": "249ba87a9b57e077fa488049fe785520089cbcb5d1e6b88113485f76d76b885c",
+      "bytes": 5031
+    },
+    "audit/benchmark_mesh_concurrency.py": {
+      "source": "/home/take/brainode/audit/benchmark_mesh_concurrency.py",
+      "sha256": "401a4da1ec869113f715bbfde5a886536e56f3e11cd0b74b5d011e0ae5e39e32",
+      "bytes": 5386
+    },
+    "audit/render_mesh_preview.py": {
+      "source": "/home/take/brainode/audit/render_mesh_preview.py",
+      "sha256": "6ca2632863a1903977b7d4d585125447bd590395b91c6e96431993cb4378d443",
+      "bytes": 6460
+    },
+    "audit/export_slicer_mesh_preview.py": {
+      "source": "/home/take/brainode/audit/export_slicer_mesh_preview.py",
+      "sha256": "5f009b897db0ec43e999bd6e7cee221c70dee9d1e79787bee88a696c50dd4371",
+      "bytes": 6869
+    },
+    "audit/prepare_model_data.py": {
+      "source": "/home/take/brainode/audit/prepare_model_data.py",
+      "sha256": "50bd51e676228ec2c87fab54d33a0dc3503961754ae81b9fd712b652c82ade9b",
+      "bytes": 11790
+    },
+    "audit/review_pca_geometry.py": {
+      "source": "/home/take/brainode/audit/review_pca_geometry.py",
+      "sha256": "defc25e13c195d75c837ec9ac0e408186abe779be6fb8bcee4f205132371d2d8",
+      "bytes": 5872
+    },
+    "audit/check_cognition_voxels.py": {
+      "source": "/home/take/brainode/audit/check_cognition_voxels.py",
+      "sha256": "1a72ff82c5a348947f4ab00d0163949cdc93040038ab978c5355d6c6961e0219",
+      "bytes": 7453
+    },
+    "audit/prepare_cognition_voxels.py": {
+      "source": "/home/take/brainode/audit/prepare_cognition_voxels.py",
+      "sha256": "60c09db8d2d97b9100612bc75c077b21fbbb84203208de1c7f7cee69e707e59a",
+      "bytes": 5999
+    },
+    "audit/summarize_observed_baseline.py": {
+      "source": "/home/take/brainode/audit/summarize_observed_baseline.py",
+      "sha256": "63561c4a1242ee0efa429162aecff8aca6a8ec261d0b2655ff497720c798f0f0",
+      "bytes": 10743
+    },
+    "audit/compare_paper_metrics.py": {
+      "source": "/home/take/brainode/audit/compare_paper_metrics.py",
+      "sha256": "eff87e21068d88081ad390c0d72eac8631ac6024e788c83f2b76a6fe1bde30e4",
+      "bytes": 6131
+    },
+    "audit/check_predicted_voxels.py": {
+      "source": "/home/take/brainode/audit/check_predicted_voxels.py",
+      "sha256": "f1dd1e030ecab4d6bbea16f280a3ebae68422f18144f2e6478d0806856a998d2",
+      "bytes": 5367
+    },
+    "audit/summarize_continuous.py": {
+      "source": "/home/take/brainode/audit/summarize_continuous.py",
+      "sha256": "4cb15b7112b9398d1a607e65f41035ee3cce8bb3cedb1130f1a3f6c9daf43334",
+      "bytes": 13273
+    },
+    "audit/matched_progressive_controls.py": {
+      "source": "/home/take/brainode/audit/matched_progressive_controls.py",
+      "sha256": "43c9dc53e3ec87c28f1bdbc6c672969bfd99e4a44b7918a7b6ccea0385c0d9cb",
+      "bytes": 5445
+    },
+    "audit/verify_algorithm2.py": {
+      "source": "/home/take/brainode/audit/verify_algorithm2.py",
+      "sha256": "7ea58d111f09cd95f26c6401715854ddb7f44eda9b5c3d5347ea1cc5dbfa45c8",
+      "bytes": 3797
+    },
+    "audit/finish_continuous.py": {
+      "source": "/home/take/brainode/audit/finish_continuous.py",
+      "sha256": "3fbb1be4e88b723868ae0e150b93d7ea9792d98239ddec3cbc0e18f3624850bf",
+      "bytes": 2177
+    },
+    "audit/review_pseudo_samples.py": {
+      "source": "/home/take/brainode/audit/review_pseudo_samples.py",
+      "sha256": "5bcf15b1a99453cc5f9d68da73a8c67307716bde57f7890e6a2d1d1975d5d366",
+      "bytes": 6360
+    },
+    "audit/plot_cognition_results.py": {
+      "source": "/home/take/brainode/audit/plot_cognition_results.py",
+      "sha256": "b898a31d8e11c108d3e7b6463b8a750265ba726b2bc519757b6eb97cb4f62aed",
+      "bytes": 3676
+    },
+    "audit/review_split_distributions.py": {
+      "source": "/home/take/brainode/audit/review_split_distributions.py",
+      "sha256": "80fd8bb18080e15202aaec03d5bc997c423e52e06a226a66eb2821b1948a4bbd",
+      "bytes": 2978
+    },
+    "audit/review_bundle_slicer.py": {
+      "source": "/home/take/brainode/audit/review_bundle_slicer.py",
+      "sha256": "73c439ebbc587ca3e2b234262e402916455df01843bf1e3655374a5ab0323075",
+      "bytes": 6917
+    },
+    "audit/export_review_bundle.py": {
+      "source": "/home/take/brainode/audit/export_review_bundle.py",
+      "sha256": "6fc5d559a997e039cc7b24dad1933dcd4b25e4c402145237045c3c0fd729bbdd",
+      "bytes": 39160
+    },
+    "audit/prepare_lateral_ventricle.py": {
+      "source": "/home/take/brainode/audit/prepare_lateral_ventricle.py",
+      "sha256": "de2e1626cf0d561092bb6f7cd65ac246f53d6d25bf2fd5677a4003f12c6ed519",
+      "bytes": 20060
+    },
+    "audit/export_lv_fit_qc.py": {
+      "source": "/home/take/brainode/audit/export_lv_fit_qc.py",
+      "sha256": "50f6b0e8b85827ffe46a8ea1b7a63e0181f2b4cf6ae25b19e69df44993b5e0ba",
+      "bytes": 6892
+    },
+    "audit/resume_lv_on_host.py": {
+      "source": "/home/take/brainode/audit/resume_lv_on_host.py",
+      "sha256": "5495643c43fb6194ef9f3e32f4f783734eee56a618c18def5a4fa87ba4d35599",
+      "bytes": 8679
+    },
+    "audit/verify_lv_resume_inventory.py": {
+      "source": "/home/take/brainode/audit/verify_lv_resume_inventory.py",
+      "sha256": "22f1eaebc5056ac25c1624134106ac5568f4d8bdb294802a6cf613a42a8bcd55",
+      "bytes": 6358
+    },
+    "audit/time_definition.md": {
+      "source": "/home/take/brainode/audit/time_definition.md",
+      "sha256": "e2508a2a54596c5dbc293111daa248c77170cd4fa5d60630f2488fd437d13c45",
+      "bytes": 3967
+    },
+    "audit/mesh_loss_sources.md": {
+      "source": "/home/take/brainode/audit/mesh_loss_sources.md",
+      "sha256": "f72e5243b7b7984bc5594f51e2f531eeab934fad332cb09107a605b2383003db",
+      "bytes": 6520
+    },
+    "references/BrainSubcorticalStructure/models/__init__.py": {
+      "source": "/home/take/brainode/references/BrainSubcorticalStructure/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "references/BrainSubcorticalStructure/models/loss.py": {
+      "source": "/home/take/brainode/references/BrainSubcorticalStructure/models/loss.py",
+      "sha256": "b17e3168aa2855bdd3a54890bde921da6166f5d88701d58780fe50b6df4e0d9c",
+      "bytes": 1858
+    },
+    "references/BrainSubcorticalStructure/models/loss_3d.py": {
+      "source": "/home/take/brainode/references/BrainSubcorticalStructure/models/loss_3d.py",
+      "sha256": "225ad4e3569f483f9f971e6e3206124e29852c4f34372eb856efb102b377dfde",
+      "bytes": 1787
+    },
+    "references/BrainSubcorticalStructure/models/pointnet.py": {
+      "source": "/home/take/brainode/references/BrainSubcorticalStructure/models/pointnet.py",
+      "sha256": "a1e8de9d3a694ee024f018c0b4ac7c2daf7f5b4bfa8b127f46a33d7bcb79f7df",
+      "bytes": 4884
+    },
+    "dataset/Shapes/hippocampus_template_mesh.obj": {
+      "source": "/home/take/brainode/dataset/Shapes/hippocampus_template_mesh.obj",
+      "sha256": "dc74b3aee2420c7c600812b54aa0891eef64f88eb2137f131a450da7d436a8a1",
+      "bytes": 117738
+    },
+    "pipelines/lv_v1/README.md": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/README.md",
+      "sha256": "dd974dbcb633d50d1cba57bc3c25e77ee865051d6f2dff7cdb9c78119238224e",
+      "bytes": 3226
+    },
+    "pipelines/lv_v1/assets/continuous_recipe.json": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/continuous_recipe.json",
+      "sha256": "82522052863a461a0937beca6be39260b18816e0b635423085d1328b0fbae475",
+      "bytes": 4805
+    },
+    "pipelines/lv_v1/assets/lv_left_template.npz": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/lv_left_template.npz",
+      "sha256": "f8cfea8ef60a1ce85ebed010a4cce28248b3a7747e652ec26ce4969dd82d595b",
+      "bytes": 64211
+    },
+    "pipelines/lv_v1/assets/lv_right_template.npz": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/lv_right_template.npz",
+      "sha256": "977b5f04ab5c2003fe4c397ae19e7b73d029be617626b284dc29f9df86e7d9a2",
+      "bytes": 67026
+    },
+    "pipelines/lv_v1/assets/observed_recipe.json": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/observed_recipe.json",
+      "sha256": "68487de4fe76f1603cc1b0c2a06fdf96cc17b81761381935440771b68ee8a59d",
+      "bytes": 3320
+    },
+    "pipelines/lv_v1/assets/template_audit.json": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/template_audit.json",
+      "sha256": "cae7718c0afb723f57efcd145a53f266dd0ab8b3804fc9861989e068e2f4ffd5",
+      "bytes": 3703
+    },
+    "pipelines/lv_v1/cnn_microbatch.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/cnn_microbatch.py",
+      "sha256": "b55a654287fb764a025cd62be1bd3dc376ff725bfad0189f8b9b8d04442f5700",
+      "bytes": 1227
+    },
+    "pipelines/lv_v1/cognition.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/cognition.py",
+      "sha256": "e4ef675a73b77cd88ae54ae1746b36842a113b6807e17dfe36a64995a84ac95e",
+      "bytes": 11062
+    },
+    "pipelines/lv_v1/deterministic_pool.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/deterministic_pool.py",
+      "sha256": "580f89732abf84b8d0c51a9ac4fc2c741a947e4efff1ba25b6bfc1765b238542",
+      "bytes": 803
+    },
+    "pipelines/lv_v1/evaluation.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/evaluation.py",
+      "sha256": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+      "bytes": 2928
+    },
+    "pipelines/lv_v1/export_helpers.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/export_helpers.py",
+      "sha256": "2fa2cdfa312122789234fa8f4d71e41b2ebc649c03cf7b7d789ba38e475236d1",
+      "bytes": 4323
+    },
+    "pipelines/lv_v1/final_export.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/final_export.py",
+      "sha256": "efc21204eac9a85e7c323c2967b66f856ed3c9ae9e183c6358c25e5a84c8b4ce",
+      "bytes": 17447
+    },
+    "pipelines/lv_v1/lab_shapes.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/lab_shapes.py",
+      "sha256": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d",
+      "bytes": 2338
+    },
+    "pipelines/lv_v1/lv_mesh_fit.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/lv_mesh_fit.py",
+      "sha256": "30fb6f710cd2b5acc8f6fc0c07791fec80db1b6220a09e4d139bff0437ece810",
+      "bytes": 9784
+    },
+    "pipelines/lv_v1/mesh_cohort.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/mesh_cohort.py",
+      "sha256": "a5627e48ed29578e1f767283a579554924a3160a180bf2744f57366ed319f7bd",
+      "bytes": 3070
+    },
+    "pipelines/lv_v1/mesh_fit.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/mesh_fit.py",
+      "sha256": "1b93f9cff26341df2eee6ab587479f453cfab23cb56c5aa463ef9be389911ab7",
+      "bytes": 25502
+    },
+    "pipelines/lv_v1/mesh_initialization.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/mesh_initialization.py",
+      "sha256": "1848f6d257a9185cca221acd6210416680c38eeb3077d428d407710ece077666",
+      "bytes": 2008
+    },
+    "pipelines/lv_v1/mesh_input.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/mesh_input.py",
+      "sha256": "481cffa0372b8e40767ab2f20c04d3cceb4df319204a137a86846bc30283a8bb",
+      "bytes": 2085
+    },
+    "pipelines/lv_v1/model.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/model.py",
+      "sha256": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+      "bytes": 3322
+    },
+    "pipelines/lv_v1/paper_cognition.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/paper_cognition.py",
+      "sha256": "95a9c90f36d4f01200af940c0c64100e0a2a655ad86c753641044a54bccd4189",
+      "bytes": 4847
+    },
+    "pipelines/lv_v1/paper_training.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/paper_training.py",
+      "sha256": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+      "bytes": 3135
+    },
+    "pipelines/lv_v1/pipeline.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/pipeline.py",
+      "sha256": "6bd361068a438dc93933334f2edc5893b69baa0c3ce1b4e8656bd4cd1ebdd5e4",
+      "bytes": 24253
+    },
+    "pipelines/lv_v1/references/BrainSubcorticalStructure/models/pointnet.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/references/BrainSubcorticalStructure/models/pointnet.py",
+      "sha256": "a1e8de9d3a694ee024f018c0b4ac7c2daf7f5b4bfa8b127f46a33d7bcb79f7df",
+      "bytes": 4884
+    },
+    "pipelines/lv_v1/resume_utils.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/resume_utils.py",
+      "sha256": "c91407de9f99149d65dc31ca839bf7ad191c31855316972dff0a7f789ffeffa9",
+      "bytes": 2115
+    },
+    "pipelines/lv_v1/smoke_chain.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/smoke_chain.py",
+      "sha256": "47f12ea155a93c904f336bb11b41c7ebe810f78824629dc82a285d0c24eb1fba",
+      "bytes": 6936
+    },
+    "pipelines/lv_v1/status.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/status.py",
+      "sha256": "cf44126d617e0a681e5ee156e2c2ed6ed3aa6a1917a25eb92dd28dd970995a43",
+      "bytes": 1092
+    },
+    "pipelines/lv_v1/train_continuous.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/train_continuous.py",
+      "sha256": "a536e60ee774e74a189b64dd1bfad38e4f579ea3af3703dcd1a1fa7b2aec4de8",
+      "bytes": 34339
+    },
+    "pipelines/lv_v1/train_lab.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/train_lab.py",
+      "sha256": "5d35a9f33bd3ba903918ed54ed58e00619915fe2545122e1b9603a6360fbe5e5",
+      "bytes": 13382
+    },
+    "pipelines/lv_v1/verify_resume.py": {
+      "source": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/verify_resume.py",
+      "sha256": "07b86d75460f864bd902b2682c374a46674f9c9b2bdc9f9dea32aeb1c9353ae1",
+      "bytes": 3393
+    }
+  },
+  "active_lv_snapshot": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05",
+  "active_lv_files_sha256": {
+    "pipelines/lv_v1/README.md": "dd974dbcb633d50d1cba57bc3c25e77ee865051d6f2dff7cdb9c78119238224e",
+    "pipelines/lv_v1/assets/continuous_recipe.json": "82522052863a461a0937beca6be39260b18816e0b635423085d1328b0fbae475",
+    "pipelines/lv_v1/assets/lv_left_template.npz": "f8cfea8ef60a1ce85ebed010a4cce28248b3a7747e652ec26ce4969dd82d595b",
+    "pipelines/lv_v1/assets/lv_right_template.npz": "977b5f04ab5c2003fe4c397ae19e7b73d029be617626b284dc29f9df86e7d9a2",
+    "pipelines/lv_v1/assets/observed_recipe.json": "68487de4fe76f1603cc1b0c2a06fdf96cc17b81761381935440771b68ee8a59d",
+    "pipelines/lv_v1/assets/template_audit.json": "cae7718c0afb723f57efcd145a53f266dd0ab8b3804fc9861989e068e2f4ffd5",
+    "pipelines/lv_v1/cnn_microbatch.py": "b55a654287fb764a025cd62be1bd3dc376ff725bfad0189f8b9b8d04442f5700",
+    "pipelines/lv_v1/cognition.py": "e4ef675a73b77cd88ae54ae1746b36842a113b6807e17dfe36a64995a84ac95e",
+    "pipelines/lv_v1/deterministic_pool.py": "580f89732abf84b8d0c51a9ac4fc2c741a947e4efff1ba25b6bfc1765b238542",
+    "pipelines/lv_v1/evaluation.py": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+    "pipelines/lv_v1/export_helpers.py": "2fa2cdfa312122789234fa8f4d71e41b2ebc649c03cf7b7d789ba38e475236d1",
+    "pipelines/lv_v1/final_export.py": "efc21204eac9a85e7c323c2967b66f856ed3c9ae9e183c6358c25e5a84c8b4ce",
+    "pipelines/lv_v1/lab_shapes.py": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d",
+    "pipelines/lv_v1/lv_mesh_fit.py": "30fb6f710cd2b5acc8f6fc0c07791fec80db1b6220a09e4d139bff0437ece810",
+    "pipelines/lv_v1/mesh_cohort.py": "a5627e48ed29578e1f767283a579554924a3160a180bf2744f57366ed319f7bd",
+    "pipelines/lv_v1/mesh_fit.py": "1b93f9cff26341df2eee6ab587479f453cfab23cb56c5aa463ef9be389911ab7",
+    "pipelines/lv_v1/mesh_initialization.py": "1848f6d257a9185cca221acd6210416680c38eeb3077d428d407710ece077666",
+    "pipelines/lv_v1/mesh_input.py": "481cffa0372b8e40767ab2f20c04d3cceb4df319204a137a86846bc30283a8bb",
+    "pipelines/lv_v1/model.py": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+    "pipelines/lv_v1/paper_cognition.py": "95a9c90f36d4f01200af940c0c64100e0a2a655ad86c753641044a54bccd4189",
+    "pipelines/lv_v1/paper_training.py": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+    "pipelines/lv_v1/pipeline.py": "6bd361068a438dc93933334f2edc5893b69baa0c3ce1b4e8656bd4cd1ebdd5e4",
+    "pipelines/lv_v1/references/BrainSubcorticalStructure/models/pointnet.py": "a1e8de9d3a694ee024f018c0b4ac7c2daf7f5b4bfa8b127f46a33d7bcb79f7df",
+    "pipelines/lv_v1/resume_utils.py": "c91407de9f99149d65dc31ca839bf7ad191c31855316972dff0a7f789ffeffa9",
+    "pipelines/lv_v1/smoke_chain.py": "47f12ea155a93c904f336bb11b41c7ebe810f78824629dc82a285d0c24eb1fba",
+    "pipelines/lv_v1/status.py": "cf44126d617e0a681e5ee156e2c2ed6ed3aa6a1917a25eb92dd28dd970995a43",
+    "pipelines/lv_v1/train_continuous.py": "a536e60ee774e74a189b64dd1bfad38e4f579ea3af3703dcd1a1fa7b2aec4de8",
+    "pipelines/lv_v1/train_lab.py": "5d35a9f33bd3ba903918ed54ed58e00619915fe2545122e1b9603a6360fbe5e5",
+    "pipelines/lv_v1/verify_resume.py": "07b86d75460f864bd902b2682c374a46674f9c9b2bdc9f9dea32aeb1c9353ae1"
+  },
+  "upstream_brainode_commit": "a5e1a2ac2bcbfc1a0aa6cdafafcfdf101135b18d",
+  "excluded": "Research image volumes, patient CSVs, patient meshes, observations, voxel caches, checkpoint weights, environment directories and logs"
+}

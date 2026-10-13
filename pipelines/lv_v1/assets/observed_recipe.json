@@ -1,0 +1,65 @@
+{
+  "experiment": "adni1_observed_v1",
+  "stage": "observed-only initial baseline; CNN and Algorithm 2 follow separately",
+  "report": "/home/take/brainode/artifacts/training_runs/adni1_observed_v1",
+  "output": "/data5/take/brainode/experiments/adni1_observed_v1",
+  "data_root": "/data5/take/brainode/model_data/adni1_pca150_v1",
+  "code_sha256": {
+    "train_lab.py": "7139af0e336856f1902342b2f430f8cf97db815ca650ef18c545b9f7abca01c1",
+    "model.py": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+    "paper_training.py": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+    "evaluation.py": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+    "lab_shapes.py": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d"
+  },
+  "data_sha256": {
+    "observations.npz": "b89a7a092903bfeff5650c571b70581d9d04430f44c951606c3f72712f52bd22",
+    "pca.npz": "66c1e3701cc947cacfb3759bf2505937f0b5fb8210ed259d3650f72fdf7d2e75",
+    "summary.json": "1839a0a83197362f4e0f8d7b50dfeed07242e773273f744c4a8550da6377c91f"
+  },
+  "model": "public ODEFuncWithAttention(150,1), unchanged",
+  "epochs": 100,
+  "seed": 42,
+  "cpu_threads": 4,
+  "learning_rate": 0.0005,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.01,
+  "batch_subjects": 2,
+  "scheduler_step_epochs": 20,
+  "scheduler_gamma": 0.5,
+  "augmentation_scale": [
+    0.98,
+    1.02
+  ],
+  "augmentation_policy": "one shared vertex-coordinate scale per patient per epoch, including PCA mean offset; no Gaussian noise",
+  "loss": "mean squared PCA Euclidean distance over all ordered distinct-time pairs per patient; average two patient losses per optimizer step",
+  "integrator": "RK4 at unique observed times, source c fixed for each trajectory",
+  "train_temporal_subjects": 299,
+  "test_future_targets": 175,
+  "checkpoint_every_epochs": 5,
+  "checkpoint_selection": "fixed final epoch; no test selection",
+  "gpu_physical_index": 4,
+  "gpu_limit": 2,
+  "other_reserved_gpu": 5,
+  "split": "inherited whole-ADNI merged-RID seed42 split; ADNI1 only",
+  "time_scale": {
+    "min_age": 55.7288,
+    "max_age": 93.0219,
+    "span_years": 37.2931
+  },
+  "quality_policy": "initial observed baseline retains all reviewed finite shared-topology candidates; residual quality flags remain and are reported separately",
+  "pca_surface_intersections": 628,
+  "pca_surface_policy": "retain PCA150 as numerical baseline; measure predicted surface intersections separately; voxel validity pending",
+  "attention_policy": "each patient integrated independently as in public train.py; singleton attention weights are one",
+  "evaluation": "first observation to all strictly later test observations; original observed meshes are primary targets; patient macro mean primary",
+  "paper_code_differences": [
+    "100 initial observed epochs follows paper total count; complete pseudo/CNN training allocation remains separate",
+    "PCA uses all train observations instead of first observations only",
+    "actual vertex scaling and no Gaussian noise, following paper augmentation",
+    "all distinct-time pairs with equal pair weight per patient; retained same-time repeats are not integrated to each other",
+    "both batch patients contribute gradients and the final short batch updates"
+  ]
+}

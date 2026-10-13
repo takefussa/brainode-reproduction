@@ -1,0 +1,93 @@
+{
+  "public_repository": "https://github.com/PWonjung/LV_Shape_Modeling",
+  "public_commit": "6c9e5bbca8cb38f71ea5fe6f8c61258bd185ce11",
+  "source_template": "/home/take/brainode/references/LV_Shape_Modeling/temp_meshes/cuttail_temp_L_tex.pkl",
+  "source_template_sha256": "dccea30fa591c039742c4ced991c4d87887aaa72c1c26d76a1fb97680429032d",
+  "original": {
+    "vertices": 2730,
+    "lv_referenced_vertices": 2490,
+    "faces": 5117,
+    "duplicate_faces": 4,
+    "zero_area_faces": 141,
+    "watertight": false,
+    "signed_volume": -30027.437695585995
+  },
+  "derived_policy": "Remove duplicate and zero-area LV faces, remove unused vertices, preserve retained vertex/face order, center once, convert LAS-index axes to RAS, orient outward; mirror for right",
+  "removed_faces": 141,
+  "removed_volume_abs": 0.0,
+  "voxel_resampling": false,
+  "anatomical_smoothing": false,
+  "holes_filled": false,
+  "orientation": {
+    "reference_example": "/home/take/brainode/references/LV_Shape_Modeling/test_data/test1/synthseg.nii.gz",
+    "reference_example_sha256": "ac51100c8960b63eba20dc36e8fd1c9975f9030eff8870c5f7e997fda9709164",
+    "axis_codes": [
+      "L",
+      "A",
+      "S"
+    ],
+    "interpretation": "LAS-index template convention inferred from the released extraction code and examples; the complete historical template-generation affine is not available",
+    "caveat": "Provided template NIfTI has identity affine; it is not evidence of a verified native MRI mapping"
+  },
+  "assets": {
+    "left": {
+      "npz": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_left_template.npz",
+      "vtk": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_left_template.vtk",
+      "obj": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_left_template.obj",
+      "sha256": {
+        "lv_left_template.npz": "f8cfea8ef60a1ce85ebed010a4cce28248b3a7747e652ec26ce4969dd82d595b",
+        "lv_left_template.vtk": "4f32ef493fd66af5d1644f3d8933c2d8d1ddaa3ee87bdc785651ec92bf8c684a",
+        "lv_left_template.obj": "517354ceeccfed1b5fa36d1255aa67610fca001138eb998b945f4d49bcb80647"
+      },
+      "vertices": 2490,
+      "faces": 4976,
+      "volume": 30027.437695585995,
+      "self_intersection_pairs": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "labels": [
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "centroid_subtracted": [
+        68.81374017186911,
+        94.25953450796595,
+        57.65211682683493
+      ],
+      "x_sign_from_original_template": -1
+    },
+    "right": {
+      "npz": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_right_template.npz",
+      "vtk": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_right_template.vtk",
+      "obj": "/home/take/brainode/artifacts/lateral_ventricle/preparation_v1/lv_right_template.obj",
+      "sha256": {
+        "lv_right_template.npz": "977b5f04ab5c2003fe4c397ae19e7b73d029be617626b284dc29f9df86e7d9a2",
+        "lv_right_template.vtk": "850bc65b2200e85c21ac16f3544448d05812e8f7dd46575881886ea5b8204939",
+        "lv_right_template.obj": "27a602ebb0c8f86a8273781833d968008bb215fe623d59c8f34fba3a34065561"
+      },
+      "vertices": 2490,
+      "faces": 4976,
+      "volume": 30027.437695585995,
+      "self_intersection_pairs": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "labels": [
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "centroid_subtracted": [
+        68.81374017186911,
+        94.25953450796595,
+        57.65211682683493
+      ],
+      "x_sign_from_original_template": 1
+    }
+  },
+  "original_sources_unchanged": true
+}

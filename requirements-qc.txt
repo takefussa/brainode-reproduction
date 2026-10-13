@@ -1,0 +1,9 @@
+# Read-only mask/MRI QC and reproducible scientific figures.
+# Install in the existing CPU-check environment; do not replace the upstream
+# CUDA-training requirements with this file.
+numpy==2.5.3
+scipy==1.18.1
+trimesh==5.1.1
+nibabel==5.3.2
+matplotlib==3.11.2
+pillow==12.3.0

@@ -1,0 +1,129 @@
+{
+  "experiment": "adni1_lv_bilateral_v1",
+  "report": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1",
+  "heavy": "/data5/take/brainode/experiments/adni1_lv_bilateral_v1",
+  "table": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/code_snapshot_plant05/assets/eligible.csv",
+  "table_sha256": "a3f0e2363c418bf0aeb5a745850cf906601f0530ac57f38e48c07a6352b33501",
+  "scans": 1405,
+  "patients": 468,
+  "split_scans": {
+    "train": 1150,
+    "test": 255
+  },
+  "split_patients": {
+    "train": 389,
+    "test": 79
+  },
+  "gpus": [
+    0,
+    1
+  ],
+  "gpu_limit": 2,
+  "mesh_workers_per_gpu": 4,
+  "mesh_iterations": 5000,
+  "mesh_seed": 20261006,
+  "voxel_workers": 4,
+  "test_future_targets": 175,
+  "latest_future_targets": 62,
+  "pca_dimensions": 150,
+  "observed_ode_epochs": 100,
+  "cnn_epochs": 30,
+  "augmented_ode_epochs": 20,
+  "progressive_steps": 10,
+  "conversion_pairs": 4,
+  "pseudo_fractions": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "regions": {
+    "left": [
+      163,
+      164,
+      165,
+      166,
+      167
+    ],
+    "right": [
+      168,
+      169,
+      170,
+      171,
+      172
+    ]
+  },
+  "region_policy": "two separate models",
+  "split_policy": "inherited merged-RID seed42 split; no redraw",
+  "age_policy": "all finite CN/AD scan ages; MCI scan exclusion only",
+  "time_scale": {
+    "min_age": 55.7288,
+    "max_age": 93.0219,
+    "span_years": 37.2931
+  },
+  "spatial_unit_assumption": "one numerical affine unit interpreted as one mm; original headers unchanged",
+  "grid_policy": "train-only PCA surfaces; 128^3, extent*1.25+40 mm padding, pitch ceil .125 mm, no clipping/refit",
+  "quality_policy": "retain every scan and quality flag; no repair/exclusion; fail if finite/closed/positive-volume/grid/ray checks fail",
+  "bundle": "/home/take/brainode/artifacts/review_bundles/adni1_LV_RID352_future",
+  "bundle_zip": "/home/take/brainode/artifacts/review_bundles/brainode_adni1_LV_future_3d.zip",
+  "review_source_uid": "34537",
+  "review_target_uid": "176917",
+  "snapshot_sha256": {
+    "README.md": "dd974dbcb633d50d1cba57bc3c25e77ee865051d6f2dff7cdb9c78119238224e",
+    "assets/continuous_recipe.json": "82522052863a461a0937beca6be39260b18816e0b635423085d1328b0fbae475",
+    "assets/eligible.csv": "a3f0e2363c418bf0aeb5a745850cf906601f0530ac57f38e48c07a6352b33501",
+    "assets/lv_left_template.npz": "f8cfea8ef60a1ce85ebed010a4cce28248b3a7747e652ec26ce4969dd82d595b",
+    "assets/lv_right_template.npz": "977b5f04ab5c2003fe4c397ae19e7b73d029be617626b284dc29f9df86e7d9a2",
+    "assets/observed_recipe.json": "68487de4fe76f1603cc1b0c2a06fdf96cc17b81761381935440771b68ee8a59d",
+    "assets/template_audit.json": "cae7718c0afb723f57efcd145a53f266dd0ab8b3804fc9861989e068e2f4ffd5",
+    "cnn_microbatch.py": "b55a654287fb764a025cd62be1bd3dc376ff725bfad0189f8b9b8d04442f5700",
+    "cognition.py": "e4ef675a73b77cd88ae54ae1746b36842a113b6807e17dfe36a64995a84ac95e",
+    "deterministic_pool.py": "580f89732abf84b8d0c51a9ac4fc2c741a947e4efff1ba25b6bfc1765b238542",
+    "evaluation.py": "ad7e3d23b76281165e1395ebd07fd442e8ce3d82f212cb7b47b6b3e023245ff3",
+    "export_helpers.py": "2fa2cdfa312122789234fa8f4d71e41b2ebc649c03cf7b7d789ba38e475236d1",
+    "final_export.py": "efc21204eac9a85e7c323c2967b66f856ed3c9ae9e183c6358c25e5a84c8b4ce",
+    "lab_shapes.py": "c1ec4498207860e3d97a4a34b4c8115389feff3ab524f41fcbfcfb1eb031eb6d",
+    "lv_mesh_fit.py": "30fb6f710cd2b5acc8f6fc0c07791fec80db1b6220a09e4d139bff0437ece810",
+    "mesh_cohort.py": "a5627e48ed29578e1f767283a579554924a3160a180bf2744f57366ed319f7bd",
+    "mesh_fit.py": "1b93f9cff26341df2eee6ab587479f453cfab23cb56c5aa463ef9be389911ab7",
+    "mesh_initialization.py": "1848f6d257a9185cca221acd6210416680c38eeb3077d428d407710ece077666",
+    "mesh_input.py": "481cffa0372b8e40767ab2f20c04d3cceb4df319204a137a86846bc30283a8bb",
+    "model.py": "61378de4ecc263db8682f7a08657ef599ee8f9649e6e76802e5600e82080cb76",
+    "paper_cognition.py": "95a9c90f36d4f01200af940c0c64100e0a2a655ad86c753641044a54bccd4189",
+    "paper_training.py": "d89d2f0d7aeedb2a35bb6dbb490d739fe92cff6a4840bb5d95588d38cc043da8",
+    "pipeline.py": "6bd361068a438dc93933334f2edc5893b69baa0c3ce1b4e8656bd4cd1ebdd5e4",
+    "references/BrainSubcorticalStructure/models/pointnet.py": "a1e8de9d3a694ee024f018c0b4ac7c2daf7f5b4bfa8b127f46a33d7bcb79f7df",
+    "resume_utils.py": "c91407de9f99149d65dc31ca839bf7ad191c31855316972dff0a7f789ffeffa9",
+    "smoke_chain.py": "47f12ea155a93c904f336bb11b41c7ebe810f78824629dc82a285d0c24eb1fba",
+    "status.py": "cf44126d617e0a681e5ee156e2c2ed6ed3aa6a1917a25eb92dd28dd970995a43",
+    "train_continuous.py": "a536e60ee774e74a189b64dd1bfad38e4f579ea3af3703dcd1a1fa7b2aec4de8",
+    "train_lab.py": "5d35a9f33bd3ba903918ed54ed58e00619915fe2545122e1b9603a6360fbe5e5",
+    "verify_resume.py": "07b86d75460f864bd902b2682c374a46674f9c9b2bdc9f9dea32aeb1c9353ae1"
+  },
+  "public_LV_commit": "6c9e5bbca8cb38f71ea5fe6f8c61258bd185ce11",
+  "created_utc": "2026-10-07T18:26:55.777803+00:00",
+  "runtime_sha256": {
+    "/data5/take/brainode/venv-mesh/lib/python3.12/site-packages/pytorch3d/_C.cpython-312-x86_64-linux-gnu.so": "9f7e26cfe5d1d1d1683343a87330e408f1fb0ead41007eafb5d44e1e4c3a21ca"
+  },
+  "runtime_compute_capabilities": [
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "migration_host": "plant-ai06",
+  "migration_parent_config_sha256": "fb7153f04ff8ab1a5a273081e1cdd42a4234c2b0933deb7f6bb2bb8b9c3bb7fe",
+  "migration_utc": "20261013T065859Z",
+  "scientific_protocol": "same cohort/time/split and effective batch16; hardware-specific CNN microbatch4",
+  "resume_inventory": "/home/take/brainode/artifacts/training_runs/adni1_lv_bilateral_v1/migration_inventory.plant06_return.20261013.json",
+  "resume_inventory_sha256": "cfb3cffa83b2a2d4221e66ce573121a5a4cbe1be7084faabb532007157a075d2"
+}

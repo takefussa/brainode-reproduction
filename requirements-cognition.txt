@@ -1,0 +1,10 @@
+# CPU environment for the present mathematical/backpropagation checks.
+# A CUDA training environment is configured at the training stage.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.7.0+cpu
+torchdiffeq==0.2.5
+trimesh==5.1.1
+numpy==2.5.3
+scipy==1.18.1
+# Fixed voxel-center occupancy uses the CPU raycasting implementation.
+open3d==0.19.0
